@@ -17,10 +17,11 @@
 				class="text-3xl font-semibold tracking-wider md:text-4xl"
 				style="font-family: 'Fuggles', cursive;"
 			>
-				<span
+				<!-- <span
 					class="text-5xl text-transparent bg-gradient-to-r from-primary to-gray-400 bg-clip-text md:text-6xl"
 					>P</span
-				>rabhu
+				>rabhu -->
+				<img src="../../../../static/logo/png/logo-no-background.png" class="theme-mode--filter" alt="logo">
 			</a>
 			{#if openToWork}
 				<div class="flex items-center border border-border rounded-xl px-2 gap-3">
@@ -59,3 +60,12 @@
 		</div>
 	</div>
 </nav>
+
+<style>
+	.theme-mode--filter{
+		width: 100px;
+		height: auto;
+
+		/* filter: invert(99%) sepia(1%) saturate(974%) hue-rotate(246deg) brightness(116%) contrast(100%); */
+	}
+</style>
