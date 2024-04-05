@@ -3,31 +3,27 @@
 	import { routes } from '$lib/config';
 	import { cn } from '$lib/utils';
 	import { ThemeToggle } from '$lib/components/site';
-	import {theme} from "$lib/stores"
+	import { theme } from '$lib/stores';
 	import { onMount } from 'svelte';
 
-	let themeClass:string;
+	let themeClass: string;
 	let openToWork = true;
 
-	onMount(()=>{
+	onMount(() => {
 		if (localStorage.getItem('mode')?.replace(/^"(.*)"$/, '$1') === 'light') {
-			themeClass = 'light-mode--filter'
+			themeClass = 'light-mode--filter';
 		} else {
-			themeClass = 'dark-mode--filter'
+			themeClass = 'dark-mode--filter';
 		}
-	})
+	});
 
-	theme.subscribe((value)=>{
-		console.log('suscribe',value)
-
+	theme.subscribe((value) => {
 		if (value === 'light') {
-			themeClass = 'light-mode--filter'
+			themeClass = 'light-mode--filter';
 		} else {
-			themeClass = 'dark-mode--filter'
+			themeClass = 'dark-mode--filter';
 		}
-	})
-
-	
+	});
 </script>
 
 <nav
@@ -44,7 +40,11 @@
 					class="text-5xl text-transparent bg-gradient-to-r from-primary to-gray-400 bg-clip-text md:text-6xl"
 					>P</span
 				>rabhu -->
-				<img src="../../../../static/logo/png/logo-no-background.png" class="{themeClass} w-24" alt="logo">
+				<img
+					src="../../../../static/logo/png/logo-no-background.png"
+					class="{themeClass} w-24"
+					alt="logo"
+				/>
 			</a>
 			{#if openToWork}
 				<div class="flex items-center border border-border rounded-xl px-2 gap-3">
@@ -54,7 +54,7 @@
 						/>
 						<span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500" />
 					</span>
-					<a href="mailto:prabhukiran426@gmail.com">Open to work</a>
+					<a href="mailto:xantirendonc@gmail.com">Open to work</a>
 				</div>
 			{/if}
 		</div>
@@ -85,10 +85,10 @@
 </nav>
 
 <style>
-	.dark-mode--filter{
+	.dark-mode--filter {
 		filter: invert(99%) sepia(1%) saturate(974%) hue-rotate(246deg) brightness(116%) contrast(100%);
 	}
-	.light-mode--filter{
+	.light-mode--filter {
 		filter: invert(0%) sepia(0%) saturate(1%) hue-rotate(135deg) brightness(101%) contrast(101%);
 	}
 </style>
