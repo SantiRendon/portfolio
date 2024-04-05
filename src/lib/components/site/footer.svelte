@@ -7,7 +7,7 @@
 <div class="container">
 	<div class="flex flex-col-reverse items-center p-2 md:justify-between md:flex-row">
 		<div>
-			Prabhu Kiran Konda | © {currentYear}
+			Santiago Rendón Castrillón | © {currentYear}
 		</div>
 		<div class="flex items-center gap-2">
 			<h1>Made with</h1>

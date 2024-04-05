@@ -17,7 +17,7 @@
 		/>
 
 		<div class="space-y-3 md:w-1/2 md:mr-4">
-			<div
+			<!-- <div
 				class="flex flex-col gap-4 border border-border p-2 bg-slate-100 dark:bg-zinc-900 rounded-xl mt-6 md:mt-0 text-primary"
 			>
 				<div class="flex items-center gap-4">
@@ -28,10 +28,10 @@
 				<div>
 					{@html whatsNew}
 				</div>
-			</div>
+			</div> -->
 
 			<h1 class="font-bold md:text-xl">Hi, I'm</h1>
-			<h1 class="text-2xl font-bold md:text-5xl">Prabhu Kiran Konda</h1>
+			<h1 class="text-2xl font-bold md:text-5xl">Santiago Rendón Castrillón</h1>
 			<p>
 				a software developer from India. I specialize in Python, Machine Learning, and full stack
 				development. I’m currently seeking software developer roles to further my career. In my free
