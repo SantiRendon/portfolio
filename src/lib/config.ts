@@ -41,18 +41,18 @@ export const socials: socialsType[] = [
 		display: 'GitHub'
 	},
 	{
-		href: 'https://linkedin.com/in/PrabhuKiranKonda',
+		href: 'https://linkedin.com/in/santiago-rendon-castrillon-06056a230',
 		icon: LinkedIn,
 		display: 'LinkedIn'
 	},
 	{
-		href: 'https://x.com/prabhukirantwt',
+		href: 'https://x.com/xantiRendon',
 		icon: X,
 		display: 'Twitter',
 		class: 'h-4 w-4'
 	},
 	{
-		href: 'mailto:prabhukiran426@gmail.com',
+		href: 'mailto:xantirendonc@gmail.com',
 		icon: Mail,
 		display: 'Mail',
 		class: 'h-4 w-4'
@@ -81,7 +81,7 @@ export const author = {
 	name: 'Santiago Rendon Castrillon',
 	tagline: 'I train machines to learn and build software to solve problems.',
 	avatar: `https://github.com/${githubConfig.username}.png`,
-	twt: 'prabhukirantwt'
+	twt: 'xantiRendon'
 };
 
 export const whatsNew: string = `

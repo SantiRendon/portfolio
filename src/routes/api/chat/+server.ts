@@ -99,9 +99,9 @@ Link: https://link.springer.com/chapter/10.1007/978-981-99-2066-2_22
 
 ---Contact Information---
 GitHub: https://github.com/SantiRendon
-LinkedIn: https://linkedin.com/in/PrabhuKiranKonda
-Twitter: https://x.com/prabhukirantwt
-Mail: mailto:prabhukiran426@gmail.com
+LinkedIn: https://linkedin.com/in/santiago-rendon-castrillon-06056a230
+Twitter: https://x.com/xantiRendon
+Mail: mailto:xantirendonc@gmail.com
 Resume: https://prabhukirankonda.vercel.app/Prabhu%20Kiran%20Konda%20Resume.pdf
 
 

@@ -13,7 +13,7 @@
 		],
 		siteName: 'Santiago Rendon Castrillon',
 		twitter: {
-			handle: '@prabhukirantwt',
+			handle: '@xantiRendon',
 			cardType: 'summary_large_image',
 			image: 'https://prabhukirankonda.vercel.app/og.png',
 			imageAlt: 'Santiago Rendon Castrillon'
@@ -41,7 +41,7 @@
 				siteName: og.siteName
 			},
 			twitter: {
-				handle: '@prabhukirantwt',
+				handle: '@xantiRendon',
 				cardType: 'summary_large_image',
 				title: `Santiago Rendon Castrillon | ${meta.ogTitle || meta.title}`,
 				description: meta.ogDescription || meta.description,
