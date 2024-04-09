@@ -36,7 +36,7 @@ export const routes: routesType[] = [
 // social icons with links
 export const socials: socialsType[] = [
 	{
-		href: 'https://github.com/prabhukiran8790',
+		href: 'https://github.com/SantiRendon',
 		icon: Github,
 		display: 'GitHub'
 	},
@@ -72,7 +72,7 @@ export const getSocials = ({ exclude }: { exclude?: string } = {}): socialsType[
 };
 
 export const githubConfig = {
-	username: 'PrabhuKiran8790',
+	username: 'SantiRendon',
 	repo: 'prabhukirankonda-portfolio',
 	branch: 'main'
 };

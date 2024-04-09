@@ -24,7 +24,7 @@
 		siteName: 'Santiago Rendon Castrillon'
 	}}
 	twitter={{
-		handle: '@prabhukirantwt',
+		handle: '@xantiRendon',
 		cardType: 'summary_large_image',
 		title: meta.title,
 		description: meta.description,
