@@ -8,15 +8,15 @@
 				url: 'https://prabhukirankonda.vercel.app/og.png',
 				width: 800,
 				height: 600,
-				alt: 'Prabhu Kiran Konda'
+				alt: 'Santiago Rendon Castrillon'
 			}
 		],
-		siteName: 'Prabhu Kiran Konda',
+		siteName: 'Santiago Rendon Castrillon',
 		twitter: {
 			handle: '@prabhukirantwt',
 			cardType: 'summary_large_image',
 			image: 'https://prabhukirankonda.vercel.app/og.png',
-			imageAlt: 'Prabhu Kiran Konda'
+			imageAlt: 'Santiago Rendon Castrillon'
 		}
 	};
 
@@ -31,11 +31,11 @@
 
 	function setPageMeta(meta: Meta) {
 		pageMeta = {
-			title: `Prabhu Kiran Konda | ${meta.title}`,
+			title: `Santiago Rendon Castrillon | ${meta.title}`,
 			description: meta.description,
 			openGraph: {
 				url: $page.url,
-				title: `Prabhu Kiran Konda | ${meta.ogTitle || meta.title}`,
+				title: `Santiago Rendon Castrillon | ${meta.ogTitle || meta.title}`,
 				description: meta.ogDescription || meta.description,
 				images: og.images,
 				siteName: og.siteName
@@ -43,10 +43,10 @@
 			twitter: {
 				handle: '@prabhukirantwt',
 				cardType: 'summary_large_image',
-				title: `Prabhu Kiran Konda | ${meta.ogTitle || meta.title}`,
+				title: `Santiago Rendon Castrillon | ${meta.ogTitle || meta.title}`,
 				description: meta.ogDescription || meta.description,
 				image: 'https://prabhukirankonda.vercel.app/og.png',
-				imageAlt: 'Prabhu Kiran Konda'
+				imageAlt: 'Santiago Rendon Castrillon'
 			}
 		};
 	}

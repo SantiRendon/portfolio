@@ -74,7 +74,7 @@
 		{
 			role: 'assistant',
 			content: `
-Sure, I'd be happy to provide information about Prabhu Kiran Konda's publications. Here they are:
+Sure, I'd be happy to provide information about Santiago Rendon Castrillon's publications. Here they are:
 Paper 1:
 Title: A Platform Independent Web-Application for Short-Term Electric Power Load Forecasting on a 33/11 kV Substation Using Regression Model
 Journal: Advances in Electrical & Electronics Engineering
@@ -87,7 +87,7 @@ Paper 3:
 Title: Active Power Load Data Dimensionality Reduction Using Autoencoder
 Journal: Springer
 Link: https://link.springer.com/chapter/10.1007/978-981-99-2066-2_22
-Please let me know if you need information on any other topic related to Prabhu Kiran Konda.
+Please let me know if you need information on any other topic related to Santiago Rendon Castrillon.
 				`
 		}
 	];

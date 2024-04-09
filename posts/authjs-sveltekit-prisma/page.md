@@ -490,7 +490,7 @@ let's create a login routes
 		</Card.Content>
 		<Card.Footer class="flex flex-col items-center justify-center p-3">
 			<p>by</p>
-			<p class="p-1">Prabhu Kiran Konda</p>
+			<p class="p-1">Santiago Rendon Castrillon</p>
 		</Card.Footer>
 	</Card.Root>
 </div>

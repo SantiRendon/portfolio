@@ -58,7 +58,7 @@ export const socials: socialsType[] = [
 		class: 'h-4 w-4'
 	},
 	{
-		href: '/Prabhu Kiran Konda Resume.pdf',
+		href: '/Santiago Rendon Castrillon Resume.pdf',
 		icon: FileText,
 		display: 'Resume'
 	}
@@ -78,7 +78,7 @@ export const githubConfig = {
 };
 
 export const author = {
-	name: 'Prabhu Kiran Konda',
+	name: 'Santiago Rendon Castrillon',
 	tagline: 'I train machines to learn and build software to solve problems.',
 	avatar: `https://github.com/${githubConfig.username}.png`,
 	twt: 'prabhukirantwt'

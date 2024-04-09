@@ -9,7 +9,7 @@ layout: about
 ## About Me 👨‍💻
 
 Hello <span class="wave">👋</span>  
-I'm `Prabhu Kiran Konda`, a technology enthusiast with a deep love for programming. I've recently discovered a passion for tech blogging and writing. I'm enthusiastic about sharing insights and knowledge from the ever-evolving world of technology.
+I'm `Santiago Rendon Castrillon`, a technology enthusiast with a deep love for programming. I've recently discovered a passion for tech blogging and writing. I'm enthusiastic about sharing insights and knowledge from the ever-evolving world of technology.
 
 Currently I'm Learning `React` and `NextJS` to build modern web applications and also exploring `Data Science` and `Machine Learning`.
 

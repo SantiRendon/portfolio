@@ -21,7 +21,7 @@
 				alt: meta.title
 			}
 		],
-		siteName: 'Prabhu Kiran Konda'
+		siteName: 'Santiago Rendon Castrillon'
 	}}
 	twitter={{
 		handle: '@prabhukirantwt',

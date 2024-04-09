@@ -12,7 +12,7 @@
 		<!-- Image for mobile devices -->
 		<img
 			src={ProfilePicture}
-			alt="Prabhu Kiran Konda"
+			alt="Santiago Rendon Castrillon"
 			class="block mx-auto rounded-full w-52 h-52 md:hidden"
 		/>
 
@@ -43,7 +43,7 @@
 
 		<img
 			src={ProfilePicture}
-			alt="Prabhu Kiran Konda"
+			alt="Santiago Rendon Castrillon"
 			class="hidden rounded-full md:block h-28 w-28 md:h-64 md:w-64 md:self-center"
 		/>
 	</div>
