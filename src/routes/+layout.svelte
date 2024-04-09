@@ -7,6 +7,7 @@
 	import { preparePageTransition } from '$lib/scripts/page-transitions';
 	import { Navbar, Footer, MetaTags, MobileNav, Jarvis } from '$lib/components/site';
 	import { Toaster } from 'svelte-french-toast';
+	import TranslationMenu from '$lib/components/site/translation-menu.svelte';
 	// import MobileNavbar from '$lib/components/site/mobile-navbar.svelte';
 
 	onNavigate(() => {
@@ -41,7 +42,8 @@
 		<Footer />
 	</footer>
 	<div class="fixed bottom-0 right-0 h-full">
-		<Jarvis />
+		<!-- <Jarvis /> -->
+		<TranslationMenu />
 	</div>
 </div>
 <!-- no-highlight (touch highlights in mobile) -->
