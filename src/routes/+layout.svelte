@@ -8,6 +8,9 @@
 	import { Navbar, Footer, MetaTags, MobileNav, Jarvis } from '$lib/components/site';
 	import { Toaster } from 'svelte-french-toast';
 	import TranslationMenu from '$lib/components/site/translation-menu.svelte';
+	import '$lib/i18n'; // Import to initialize. Very Important!
+	import { locale, waitLocale } from 'svelte-i18n';
+	//   import type { LayoutLoad } from './$types';
 	// import MobileNavbar from '$lib/components/site/mobile-navbar.svelte';
 
 	onNavigate(() => {
@@ -27,6 +30,13 @@
 			}
 		}
 	}
+
+	export const load = async () => {
+		if (browser) {
+			locale.set(window.navigator.language);
+		}
+		await waitLocale();
+	};
 </script>
 
 <ModeWatcher />
