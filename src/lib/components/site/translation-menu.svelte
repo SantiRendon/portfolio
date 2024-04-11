@@ -2,6 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import { Languages } from 'lucide-svelte';
+	import { locale } from 'svelte-i18n';
 </script>
 
 <div class="absolute bottom-4 right-4 hidden lg:block">
@@ -15,7 +16,7 @@
 		<DropdownMenu.Content class="z-[100] -ml-7">
 			<DropdownMenu.Item
 				on:click={() => {
-					console.log('English');
+					$locale = 'en';
 				}}
 				class="flex items-center space-x-2"
 			>
@@ -24,7 +25,7 @@
 
 			<DropdownMenu.Item
 				on:click={() => {
-					console.log('Spanish');
+					$locale = 'es';
 				}}
 				class="flex items-center space-x-2"
 			>
