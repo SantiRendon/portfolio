@@ -2,6 +2,7 @@
 	import { projects } from '$lib/projects';
 	import { Masonry, ProjectCard } from '.';
 	import { Button } from '$lib/components/ui/button';
+	import { _ } from 'svelte-i18n';
 	const featured = projects.filter((project) => {
 		return project.featured;
 	});
@@ -12,10 +13,10 @@
 		<h1
 			class="text-2xl font-bold text-transparent bg-gradient-to-r from-primary to-gray-400 bg-clip-text md:text-5xl"
 		>
-			Featured Projects
+			{$_('home_featured-projects--title')}
 		</h1>
-		<p class="text-muted-foreground">Here are some of my featured projects</p>
-		<div><Button href="/projects" class="text-base">View all Projects</Button></div>
+		<p class="text-muted-foreground">{$_('home_featured-projects--subtitle')}</p>
+		<div><Button href="/projects" class="text-base">{$_('home_featured-projects--call-to-action')}</Button></div>
 	</div>
 </div>
 
