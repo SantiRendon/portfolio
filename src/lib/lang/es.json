@@ -1,4 +1,10 @@
 {
     "home_greeting": "Hola, yo soy",
-    "home_presentation": "Desarrollador Full Stack con experiencia en tecnologías como React, Next.js, Node.js y AWS. Apasionado por el aprendizaje continuo, la colaboración y la resolución de problemas. Comunicador efectivo y jugador de equipo con fuertes habilidades de adaptabilidad y liderazgo. Comprometido con la entrega de soluciones innovadoras."
+    "home_presentation": "Desarrollador Full Stack con experiencia en tecnologías como React, Next.js, Node.js y AWS. Apasionado por el aprendizaje continuo, la colaboración y la resolución de problemas. Comunicador efectivo y jugador de equipo con fuertes habilidades de adaptabilidad y liderazgo. Comprometido con la entrega de soluciones innovadoras.",
+    "home_latest-post--title": "Última Entrada",
+    "home_latest-post--subtitle": "Echa un vistazo a mi artículo más reciente",
+    "home_latest-post--call-to-action": "Leer Más",
+    "home_featured-projects--title": "Proyectos Destacados",
+    "home_featured-projects--subtitle": "Aquí están algunos de mis proyectos destacados",
+    "home_featured-projects--call-to-action": "Ver Todos los Proyectos"
 }
