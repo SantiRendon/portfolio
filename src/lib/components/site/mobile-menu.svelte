@@ -5,6 +5,17 @@
 	import { openMobileMenu, searchOpen } from '$lib/stores';
 	import { Toc } from './table-of-contents';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
+	let themeClass: string;
+
+	onMount(() => {
+		if (localStorage.getItem('mode')?.replace(/^"(.*)"$/, '$1') === 'light') {
+			themeClass = 'light-mode--filter';
+		} else {
+			themeClass = 'dark-mode--filter';
+		}
+	});
 </script>
 
 <div class="items-center h-16 px-2 bg-gray-300 border rounded-lg grid grid-cols-3 dark:bg-zinc-800">
@@ -14,10 +25,11 @@
 			class="text-3xl font-semibold tracking-wider md:text-4xl"
 			style="font-family: 'Fuggles', cursive;"
 		>
-			<span
-				class="text-5xl text-transparent bg-gradient-to-r from-primary to-gray-400 bg-clip-text md:text-6xl"
-				>P</span
-			>rabhu
+		<img
+		src="../../../../static/logo/png/logo-no-background.png"
+		class="{themeClass} w-24"
+		alt="logo"
+	/>
 		</a>
 	</div>
 
@@ -53,3 +65,12 @@
 		</button>
 	</div>
 </div>
+
+<style>
+	.dark-mode--filter {
+		filter: invert(99%) sepia(1%) saturate(974%) hue-rotate(246deg) brightness(116%) contrast(100%);
+	}
+	.light-mode--filter {
+		filter: invert(0%) sepia(0%) saturate(1%) hue-rotate(135deg) brightness(101%) contrast(101%);
+	}
+</style>
