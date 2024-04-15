@@ -3,7 +3,7 @@
 	import { SocialButtons } from '$lib/components/site';
 	import { whatsNew } from '$lib/config';
 	import { Mailbox } from 'lucide-svelte';
-	import { _ } from 'svelte-i18n';
+	import { _, isLoading } from 'svelte-i18n';
 
 	// const ProfilePicture = new URL('../../assets/profile_picture.jpg', import.meta.url).href
 </script>
@@ -31,10 +31,36 @@
 				</div>
 			</div> -->
 
-			<h1 class="font-bold md:text-xl">{$_('home_greeting')}</h1>
+			<h1 class="font-bold md:text-xl">
+				{#if $isLoading}
+					<span
+						class="inline-block min-h-[1em] w-6/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+				{:else}
+					{$_('home_greeting')}
+				{/if}
+			</h1>
 			<h1 class="text-2xl font-bold md:text-5xl">Santiago Rendón Castrillón</h1>
 			<p>
-				{$_('home_presentation')}
+				{#if $isLoading}
+					<span
+						class="inline-block min-h-[1em] w-11/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+					<span
+						class="inline-block min-h-[1em] w-11/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+					<span
+						class="inline-block min-h-[1em] w-11/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+					<span
+						class="inline-block min-h-[1em] w-11/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+					<span
+						class="inline-block min-h-[1em] w-6/12 flex-auto cursor-wait bg-current align-middle opacity-50"
+					/>
+				{:else}
+					{$_('home_presentation')}
+				{/if}
 			</p>
 			<SocialButtons />
 		</div>
