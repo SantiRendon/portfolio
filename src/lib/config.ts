@@ -57,11 +57,6 @@ export const socials: socialsType[] = [
 		display: 'Mail',
 		class: 'h-4 w-4'
 	},
-	{
-		href: '/Santiago Rendon Castrillon Resume.pdf',
-		icon: FileText,
-		display: 'Resume'
-	}
 ];
 
 export const getSocials = ({ exclude }: { exclude?: string } = {}): socialsType[] => {
@@ -70,6 +65,21 @@ export const getSocials = ({ exclude }: { exclude?: string } = {}): socialsType[
 	}
 	return socials;
 };
+
+
+// resume icons with links
+export const resume : socialsType[] = [
+	{
+		href: '/cv/EN.pdf',
+		icon: FileText,
+		display: 'Resume'
+	},
+	{
+		href: '/cv/ES.pdf',
+		icon: FileText,
+		display: 'Resume'
+	}
+];
 
 export const githubConfig = {
 	username: 'SantiRendon',
