@@ -72,12 +72,12 @@ export const resume : socialsType[] = [
 	{
 		href: '/cv/EN.pdf',
 		icon: FileText,
-		display: 'Resume'
+		display: 'English'
 	},
 	{
 		href: '/cv/ES.pdf',
 		icon: FileText,
-		display: 'Resume'
+		display: 'Español'
 	}
 ];
 
