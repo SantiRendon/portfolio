@@ -1,5 +1,5 @@
 import type { ComponentType, SvelteComponent } from 'svelte';
-import { Drizzle, Streamlit, Svelte, Tailwind } from './components/site/icons';
+import { /*Drizzle, Streamlit,*/ Svelte, Tailwind } from './components/site/icons';
 
 function tuple<T extends string[]>(...o: T) {
 	return o;
@@ -9,21 +9,21 @@ export const techStackArray = tuple(
 	'Python',
 	'TypeScript',
 	'JavaScript',
-	'Java',
+	// 'Java',
 	'React',
 	'NextJS',
 	'SvelteKit',
-	'TensorFlow',
-	'PyTorch',
-	'Streamlit',
-	'PostgreSQL',
+	// 'TensorFlow',
+	// 'PyTorch',
+	// 'Streamlit',
+	// 'PostgreSQL',
 	'MySQL',
 	'MongoDB',
-	'Firebase',
-	'FastAPI',
-	'Docker',
+	// 'Firebase',
+	// 'FastAPI',
+	// 'Docker',
 	'Git',
-	'Drizzle',
+	// 'Drizzle',
 	'Tailwind'
 );
 
@@ -62,23 +62,23 @@ export const techStackData: TechStackObject = {
 	NextJS: {
 		className: 'bg-white rounded-full' // that's it.
 	},
-	Firebase: {
-		filename: 'firebase-plain'
-	},
+	// Firebase: {
+	// 	filename: 'firebase-plain'
+	// },
 	SvelteKit: {
 		customIcon: Svelte
 	},
-	Streamlit: {
-		customIcon: Streamlit
-	},
+	// Streamlit: {
+	// 	customIcon: Streamlit
+	// },
 	MySQL: {
 		className: 'bg-white',
 		filename: 'mysql-original-wordmark'
 	},
 	Tailwind: {
 		customIcon: Tailwind
-	},
-	Drizzle: {
-		customIcon: Drizzle
 	}
+	// Drizzle: {
+	// 	customIcon: Drizzle
+	// }
 };
