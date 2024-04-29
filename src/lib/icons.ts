@@ -1,5 +1,5 @@
 import type { ComponentType, SvelteComponent } from 'svelte';
-import { /*Drizzle, Streamlit,*/ Svelte, Tailwind } from './components/site/icons';
+import { /*Drizzle, Streamlit,*/ Aws, Svelte, Tailwind } from './components/site/icons';
 
 function tuple<T extends string[]>(...o: T) {
 	return o;
@@ -24,7 +24,12 @@ export const techStackArray = tuple(
 	// 'Docker',
 	'Git',
 	// 'Drizzle',
-	'Tailwind'
+	'Tailwind',
+	'Nodejs',
+	'Express',
+	'Aws',
+	'Figma',
+	'Wordpress'
 );
 
 export type TechStack = (typeof techStackArray)[number];
@@ -77,8 +82,12 @@ export const techStackData: TechStackObject = {
 	},
 	Tailwind: {
 		customIcon: Tailwind
-	}
+	},
 	// Drizzle: {
 	// 	customIcon: Drizzle
 	// }
+	Aws: {
+		customIcon: Aws,
+		className: 'fill-white'
+	}
 };
