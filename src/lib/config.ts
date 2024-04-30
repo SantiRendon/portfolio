@@ -19,10 +19,10 @@ export const routes: routesType[] = [
 		name: 'Blog',
 		link: '/blog'
 	},
-	{
-		name: 'Tags',
-		link: '/tags'
-	},
+	// {
+	// 	name: 'Tags',
+	// 	link: '/tags'
+	// },
 	{
 		name: 'Projects',
 		link: '/projects'
