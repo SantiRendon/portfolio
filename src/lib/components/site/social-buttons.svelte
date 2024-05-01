@@ -9,7 +9,7 @@
 	let dialogOpen = false;
 </script>
 
-<div class="max-w-2xl py-4 mx-auto grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-4">
+<div class="max-w-2xl py-4 mx-auto flex gap-[2rem]">
 	{#each getSocials({ exclude: 'Resume' }) as { display, href, icon }}
 		<a
 			{href}
