@@ -6,5 +6,11 @@
     "home_latest-post--call-to-action": "Leer Más",
     "home_featured-projects--title": "Proyectos Destacados",
     "home_featured-projects--subtitle": "Aquí están algunos de mis proyectos destacados",
-    "home_featured-projects--call-to-action": "Ver Todos los Proyectos"
+    "home_featured-projects--call-to-action": "Ver Todos los Proyectos",
+    "navbar--opentowork":"Disponible para trabajar",
+    "navbar-navigation--projects":"Proyectos",
+    "navbar-navigation--about":"Acerca de",
+    "navbar-theme-toggle--dark":"Oscuro",
+    "navbar-theme-toggle--light":"Claro",
+    "navbar-theme-toggle--system":"Sistema"
 }

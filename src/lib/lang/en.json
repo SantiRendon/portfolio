@@ -1,10 +1,16 @@
 {
-    "home_greeting": "Hi, I'm",
-    "home_presentation": "Experienced Full Stack Developer proficient in React, Next.js, Node.js, and AWS. Passionate about continuous learning, collaboration, and problem-solving. Effective communicator and team player with strong adaptability and leadership skills. Committed to delivering innovative solutions.",
-    "home_latest-post--title": "Latest Post",
-    "home_latest-post--subtitle": "Check out my latest blog post",
-    "home_latest-post--call-to-action": "Read More",
-    "home_featured-projects--title": "Featured Projects",
-    "home_featured-projects--subtitle": "Here are some of my featured projects",
-    "home_featured-projects--call-to-action": "View All Projects"
+	"home_greeting": "Hi, I'm",
+	"home_presentation": "Experienced Full Stack Developer proficient in React, Next.js, Node.js, and AWS. Passionate about continuous learning, collaboration, and problem-solving. Effective communicator and team player with strong adaptability and leadership skills. Committed to delivering innovative solutions.",
+	"home_latest-post--title": "Latest Post",
+	"home_latest-post--subtitle": "Check out my latest blog post",
+	"home_latest-post--call-to-action": "Read More",
+	"home_featured-projects--title": "Featured Projects",
+	"home_featured-projects--subtitle": "Here are some of my featured projects",
+	"home_featured-projects--call-to-action": "View All Projects",
+	"navbar--opentowork": "Open to work",
+	"navbar-navigation--projects": "Projects",
+	"navbar-navigation--about": "About",
+	"navbar-theme-toggle--dark": "Dark",
+	"navbar-theme-toggle--light": "Light",
+	"navbar-theme-toggle--system": "System"
 }
