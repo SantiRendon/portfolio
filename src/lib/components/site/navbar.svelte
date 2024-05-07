@@ -5,6 +5,7 @@
 	import { ThemeToggle } from '$lib/components/site';
 	import { theme } from '$lib/stores';
 	import { onMount } from 'svelte';
+	import {t} from 'svelte-i18n'
 
 	let themeClass: string;
 	let openToWork = true;
@@ -54,7 +55,7 @@
 						/>
 						<span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500" />
 					</span>
-					<a href="mailto:xantirendonc@gmail.com">Open to work</a>
+					<a href="mailto:xantirendonc@gmail.com">{$t('navbar--opentowork')}</a>
 				</div>
 			{/if}
 		</div>
@@ -73,7 +74,7 @@
 										$page.url.pathname.startsWith(route.link) ? 'opacity-100' : ''
 									)}
 								/>
-								{route.name}
+								{$t(route.name)}
 							</a>
 						</li>
 					{/each}

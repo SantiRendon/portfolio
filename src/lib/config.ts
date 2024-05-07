@@ -24,11 +24,11 @@ export const routes: routesType[] = [
 	// 	link: '/tags'
 	// },
 	{
-		name: 'Projects',
+		name: 'navbar-navigation--projects',
 		link: '/projects'
 	},
 	{
-		name: 'About',
+		name: 'navbar-navigation--about',
 		link: '/about'
 	}
 ];

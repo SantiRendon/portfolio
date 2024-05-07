@@ -2,6 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import { Laptop, Sun } from 'lucide-svelte';
+	import {t} from 'svelte-i18n'
 
 	import { theme } from '$lib/stores';
 	import { resetMode, setMode } from 'mode-watcher';
@@ -27,7 +28,7 @@
 			class="flex items-center space-x-2"
 		>
 			<Sun class="h-[1.2rem] w-[1.2rem]" />
-			<span>Light</span>
+			<span>{$t('navbar-theme-toggle--light')}</span>
 		</DropdownMenu.Item>
 
 		<DropdownMenu.Item
@@ -38,7 +39,7 @@
 			class="flex items-center space-x-2"
 		>
 			<Moon class="h-[1.2rem] w-[1.2rem]" />
-			<span>Dark</span>
+			<span>{$t('navbar-theme-toggle--dark')}</span>
 		</DropdownMenu.Item>
 		<DropdownMenu.Item
 			on:click={() => {
@@ -48,7 +49,7 @@
 			class="flex items-center space-x-2"
 		>
 			<Laptop class="h-[1.2rem] w-[1.2rem]" />
-			<span>System</span>
+			<span>{$t('navbar-theme-toggle--system')}</span>
 		</DropdownMenu.Item>
 	</DropdownMenu.Content>
 </DropdownMenu.Root>
