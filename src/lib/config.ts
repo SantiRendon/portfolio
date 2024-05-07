@@ -15,10 +15,10 @@ type socialsType = {
 
 // nav routes
 export const routes: routesType[] = [
-	{
-		name: 'Blog',
-		link: '/blog'
-	},
+	// {
+	// 	name: 'Blog',
+	// 	link: '/blog'
+	// },
 	// {
 	// 	name: 'Tags',
 	// 	link: '/tags'
