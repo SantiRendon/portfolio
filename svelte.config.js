@@ -10,7 +10,10 @@ const config = {
 	preprocess: [mdsvex(mdsvexOptions), vitePreprocess({})],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			images: true,
+			runtime:"node@20"
+		})
 	}
 };
 
