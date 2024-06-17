@@ -3,7 +3,6 @@
 	import { page } from '$app/stores';
 	import { BlogMetatags, SVGDoodle, Stickybar } from '$lib/components/site';
 	import Bloghero from '$lib/components/site/bloghero.svelte';
-	import Comments from '$lib/components/site/gicsus_/comments.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 	import { githubConfig } from '$lib/config.js';
@@ -122,8 +121,5 @@
 	</div>
 	<div class="flex items-center justify-center">
 		<SVGDoodle />
-	</div>
-	<div class="px-3 pb-24 md:container" id="comments">
-		<Comments {theme_} />
 	</div>
 </div>
