@@ -5,7 +5,7 @@
 	import { browser } from '$app/environment';
 	import { openMobileMenu } from '$lib/stores';
 	import { preparePageTransition } from '$lib/scripts/page-transitions';
-	import { Navbar, Footer, MetaTags, MobileNav, Jarvis } from '$lib/components/site';
+	import { Navbar, Footer, MetaTags, MobileNav} from '$lib/components/site';
 	import { Toaster } from 'svelte-french-toast';
 	import TranslationMenu from '$lib/components/site/translation-menu.svelte';
 	import '$lib/i18n'; // Import to initialize. Very Important!
@@ -52,7 +52,6 @@
 		<Footer />
 	</footer>
 	<div class="fixed bottom-0 right-0 h-full">
-		<!-- <Jarvis /> -->
 		<TranslationMenu />
 	</div>
 </div>

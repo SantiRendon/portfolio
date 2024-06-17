@@ -26,4 +26,3 @@ export { default as ComboBox } from './combobox.svelte';
 export { default as SeriesPostNavigation } from './series-post-navigation.svelte';
 export { default as Author } from './author.svelte';
 export { default as MobileNav } from './mobile-nav.svelte';
-export { default as Jarvis } from './jarvis.svelte';
