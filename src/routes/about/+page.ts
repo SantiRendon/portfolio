@@ -1,8 +1,15 @@
 export const load = async () => {
-	const post = await import('../../../about/about.md');
+	const about = await import('../../../about/about.md');
+	const acerca = await import('../../../about/acerca.md');
 
 	return {
-		content: post.default,
-		meta: post.metadata
+		about: {
+			content: about.default,
+			meta: about.metadata
+		},
+		acerca: {
+			content: acerca.default,
+			meta: acerca.metadata
+		}
 	};
 };
